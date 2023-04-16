@@ -7,4 +7,20 @@ theme: minima
 remote_theme: mmistakes/minimal-mistakes  
 plugins:  
   - jekyll-remote-theme  
+author:  
+  name: Your Name  
+  avatar: "/path/to/your/avatar.jpg"  
+  bio: "A short bio about you or your website."  
+  location: "City, Country"  
+  links:  
+    - label: "Info"  
+      icon: "fas fa-fw fa-info-circle"  
+      url: "/info"  
+    - label: "Gardening Tips"  
+      icon: "fas fa-fw fa-seedling"  
+      url: "/gardening-tips"  
+    - label: "Our Gardening Community"  
+      icon: "fas fa-fw fa-users"  
+      url: "/our-gardening-community"  
+
 
