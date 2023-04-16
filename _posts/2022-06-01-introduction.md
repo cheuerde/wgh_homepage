@@ -1,6 +1,6 @@
 ---  
-layout: post  
-title: "Welcome to Our Gardening Community"  
+layout: single  
+title: "Introduction"  
 date: 2022-06-01  
 ---  
 
