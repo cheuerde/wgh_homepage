@@ -7,6 +7,7 @@ theme: minima
 remote_theme: mmistakes/minimal-mistakes  
 plugins:  
   - jekyll-remote-theme  
+  - jekyll-include-cache  
 author:  
   name: Your Name  
   avatar: "/path/to/your/avatar.jpg"  
