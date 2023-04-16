@@ -1,7 +1,7 @@
 ---  
 layout: single  
 title: "Info"  
-permalink: /info/  
+permalink: /info 
 ---  
 
 Info Content!!
