@@ -1,12 +1,19 @@
-title: My Gardening Community  
-description: A place for gardening enthusiasts to share tips, tricks, and advice.  
-baseurl: ""  
-url: "https://cheuerde.github.io"  
-timezone: "America/New_York"  
+title: Your Site Title  
+description: A description of your site  
+author:  
+  name: Your Name  
+  
 remote_theme: mmistakes/minimal-mistakes  
+  
 plugins:  
   - jekyll-remote-theme  
   - jekyll-include-cache  
+  
+# Add the following lines if you want to enable Google Analytics tracking  
+# Replace "UA-XXXXX-Y" with your own tracking ID  
+#google_analytics: "UA-XXXXX-Y"  
+  
+# Author information for the sidebar  
 author:  
   name: Your Name  
   avatar: "/path/to/your/avatar.jpg"  
@@ -22,5 +29,7 @@ author:
     - label: "Our Gardening Community"  
       icon: "fas fa-fw fa-users"  
       url: "/our-gardening-community"  
-
+  
+# Enable the following line to enforce HTTPS on your site  
+#enforce_ssl: your-username.github.io  
 
