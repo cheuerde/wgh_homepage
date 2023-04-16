@@ -1,9 +1,9 @@
 ---  
 layout: single  
-title: "Info"  
-permalink: /info/  
+title: "Garden"  
+permalink: /garden/  
 sidebar:  
   nav: "sidebar-navigation"  
 ---  
   
-This is the Info page.  
+This is the Garden page.  
