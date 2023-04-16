@@ -3,6 +3,8 @@ description: A description of your site
 author:  
   name: Your Name  
   
+baseurl: "/wgh_homepage"  
+  
 remote_theme: mmistakes/minimal-mistakes  
   
 plugins:  
@@ -18,22 +20,22 @@ author:
   links:  
     - label: "Info"  
       icon: "fas fa-fw fa-info-circle"  
-      url: "/info"  
+      url: "{{ site.baseurl }}/info"  
     - label: "Gardening Tips"  
       icon: "fas fa-fw fa-seedling"  
-      url: "/gardening-tips"  
+      url: "{{ site.baseurl }}/gardening-tips"  
     - label: "Our Gardening Community"  
       icon: "fas fa-fw fa-users"  
-      url: "/our-gardening-community"  
+      url: "{{ site.baseurl }}/our-gardening-community"  
   
 # Main navigation menu  
 main:  
   - title: "Info"  
-    url: /info/  
+    url: "{{ site.baseurl }}/info/"  
   - title: "Gardening Tips"  
-    url: /gardening-tips/  
+    url: "{{ site.baseurl }}/gardening-tips/"  
   - title: "Our Gardening Community"  
-    url: /our-gardening-community/  
+    url: "{{ site.baseurl }}/our-gardening-community/"  
   
 # Enable navigation in the sidebar  
 sidebar:  
@@ -45,4 +47,3 @@ sidebar:
   
 # Enable the following line to enforce HTTPS on your site  
 #enforce_ssl: your-username.github.io  
-
