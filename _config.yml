@@ -4,6 +4,8 @@ baseurl: "/awgh_homepage"
 remote_theme: mmistakes/minimal-mistakes  
 repository: cheuerde/wgh_homepage  
 permalink: /:categories/:title/  
+plugins:  
+  - jekyll-include-cache 
 author:  
   name: Your Name  
   email: your@email.com  
