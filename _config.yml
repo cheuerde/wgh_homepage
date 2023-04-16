@@ -3,7 +3,7 @@ description: A description of your site
 author:  
   name: Your Name  
   
-baseurl: "/cheuerde/wgh_homepage"  
+baseurl: "/wgh_homepage"  
   
 remote_theme: mmistakes/minimal-mistakes  
   
@@ -14,7 +14,7 @@ plugins:
 # Author information for the sidebar  
 author:  
   name: Your Name  
-  avatar: "/path/to/your/avatar.jpg"  
+#  avatar: "/path/to/your/avatar.jpg"  
   bio: "A short bio about you or your website."  
   location: "City, Country"  
   links:  
