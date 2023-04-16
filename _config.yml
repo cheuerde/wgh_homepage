@@ -1,7 +1,7 @@
 title: WGH Homepage  
 url: "https://cheuerde.github.io"  
 baseurl: "/awgh_homepage"  
-theme: minimal-mistakes-jekyll  
+remote_theme: mmistakes/minimal-mistakes  
 repository: cheuerde/wgh_homepage  
 permalink: /:categories/:title/  
 author:  
