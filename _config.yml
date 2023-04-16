@@ -29,24 +29,16 @@ author:
 # Main navigation menu  
 main:  
   - title: "Info"  
-    url: "/info/"  
+    url: /info/  
   - title: "Gardening Tips"  
-    url: "/gardening-tips/"  
+    url: /gardening-tips/  
   - title: "Our Gardening Community"  
-    url: "/our-gardening-community/"  
+    url: /our-gardening-community/  
   
 # Enable navigation in the sidebar  
 sidebar:  
   nav: main  
   
-# Add the following lines if you want to enable Google Analytics tracking  
-# Replace "UA-XXXXX-Y" with your own tracking ID  
-#google_analytics: "UA-XXXXX-Y"  
-  
-# Enable the following line to enforce HTTPS on your site  
-#enforce_ssl: your-username.github.io  
-  
-
 # Add the following lines if you want to enable Google Analytics tracking  
 # Replace "UA-XXXXX-Y" with your own tracking ID  
 #google_analytics: "UA-XXXXX-Y"  
