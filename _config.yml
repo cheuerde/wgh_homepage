@@ -3,7 +3,7 @@ description: A description of your site
 author:  
   name: Your Name  
   
-baseurl: "/wgh_homepage"  
+baseurl: "/cheuerde/wgh_homepage"  
   
 remote_theme: mmistakes/minimal-mistakes  
   
