@@ -1,6 +1,6 @@
 title: WGH Homepage  
 url: "https://cheuerde.github.io"  
-baseurl: "/awgh_homepage"  
+baseurl: "/wgh_homepage"  
 remote_theme: mmistakes/minimal-mistakes  
 repository: cheuerde/wgh_homepage  
 permalink: /:categories/:title/  
