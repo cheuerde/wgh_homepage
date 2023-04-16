@@ -3,7 +3,7 @@ description: A description of your site
 author:  
   name: Your Name  
   
-baseurl: "/your-repo-name"  
+baseurl: "/wgh_homepage"  
   
 remote_theme: mmistakes/minimal-mistakes  
   
