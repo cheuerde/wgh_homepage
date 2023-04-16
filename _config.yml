@@ -3,8 +3,6 @@ description: A description of your site
 author:  
   name: Your Name  
   
-baseurl: "/wgh_homepage"  
-  
 remote_theme: mmistakes/minimal-mistakes  
   
 plugins:  
@@ -14,33 +12,43 @@ plugins:
 # Author information for the sidebar  
 author:  
   name: Your Name  
-#  avatar: "/path/to/your/avatar.jpg"  
+  avatar: "/path/to/your/avatar.jpg"  
   bio: "A short bio about you or your website."  
   location: "City, Country"  
   links:  
     - label: "Info"  
       icon: "fas fa-fw fa-info-circle"  
-      url: "{{ site.baseurl }}/info"  
+      url: "/info"  
     - label: "Gardening Tips"  
       icon: "fas fa-fw fa-seedling"  
-      url: "{{ site.baseurl }}/gardening-tips"  
+      url: "/gardening-tips"  
     - label: "Our Gardening Community"  
       icon: "fas fa-fw fa-users"  
-      url: "{{ site.baseurl }}/our-gardening-community"  
+      url: "/our-gardening-community"  
   
 # Main navigation menu  
 main:  
   - title: "Info"  
-    url: "{{ site.baseurl }}/info/"  
+    url: "/info/"  
   - title: "Gardening Tips"  
-    url: "{{ site.baseurl }}/gardening-tips/"  
+    url: "/gardening-tips/"  
   - title: "Our Gardening Community"  
-    url: "{{ site.baseurl }}/our-gardening-community/"  
+    url: "/our-gardening-community/"  
   
 # Enable navigation in the sidebar  
 sidebar:  
   nav: main  
   
+# Add the following lines if you want to enable Google Analytics tracking  
+# Replace "UA-XXXXX-Y" with your own tracking ID  
+#google_analytics: "UA-XXXXX-Y"  
+  
+# Enable the following line to enforce HTTPS on your site  
+#enforce_ssl: your-username.github.io  
+  
+# Set the permalink structure  
+permalink: /:title/  
+
 # Add the following lines if you want to enable Google Analytics tracking  
 # Replace "UA-XXXXX-Y" with your own tracking ID  
 #google_analytics: "UA-XXXXX-Y"  
