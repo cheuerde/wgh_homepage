@@ -1,8 +1,8 @@
-title: AWH Homepage  
+title: WGH Homepage  
 url: "https://cheuerde.github.io"  
-baseurl: "/awh_homepage"  
+baseurl: "/awgh_homepage"  
 theme: minimal-mistakes-jekyll  
-repository: cheuerde/awh_homepage  
+repository: cheuerde/wgh_homepage  
 permalink: /:categories/:title/  
 author:  
   name: Your Name  
