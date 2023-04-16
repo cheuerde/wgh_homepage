@@ -1,49 +1,21 @@
-title: Your Site Title  
-description: A description of your site  
+title: AWH Homepage  
+url: "https://cheuerde.github.io"  
+baseurl: "/awh_homepage"  
+theme: minimal-mistakes-jekyll  
+repository: cheuerde/awh_homepage  
+permalink: /:categories/:title/  
 author:  
   name: Your Name  
+  email: your@email.com  
+  twitter: your_twitter  
+  github: your_github  
+  linkedin: your_linkedin  
   
-baseurl: "/wgh_homepage"  
-  
-remote_theme: mmistakes/minimal-mistakes  
-  
-plugins:  
-  - jekyll-remote-theme  
-  - jekyll-include-cache  
-  
-# Author information for the sidebar  
-author:  
-  name: Your Name  
-  avatar: "/path/to/your/avatar.jpg"  
-  bio: "A short bio about you or your website."  
-  location: "City, Country"  
-  links:  
-    - label: "Info"  
-      icon: "fas fa-fw fa-info-circle"  
-      url: "{{ site.baseurl }}/info"  
-    - label: "Gardening Tips"  
-      icon: "fas fa-fw fa-seedling"  
-      url: "{{ site.baseurl }}/gardening-tips"  
-    - label: "Our Gardening Community"  
-      icon: "fas fa-fw fa-users"  
-      url: "{{ site.baseurl }}/our-gardening-community"  
-  
-# Main navigation menu  
-main:  
-  - title: "Info"  
-    url: "{{ site.baseurl }}/info/"  
-  - title: "Gardening Tips"  
-    url: "{{ site.baseurl }}/gardening-tips/"  
-  - title: "Our Gardening Community"  
-    url: "{{ site.baseurl }}/our-gardening-community/"  
-  
-# Enable navigation in the sidebar  
-sidebar:  
-  nav: main  
-  
-# Add the following lines if you want to enable Google Analytics tracking  
-# Replace "UA-XXXXX-Y" with your own tracking ID  
-#google_analytics: "UA-XXXXX-Y"  
-  
-# Enable the following line to enforce HTTPS on your site  
-#enforce_ssl: your-username.github.io  
+navigation:  
+  - title: Info  
+    url: /info/  
+  - title: Garden  
+    url: /garden/  
+  - title: Community  
+    url: /community/  
+ 
