@@ -4,3 +4,7 @@ baseurl: ""
 url: "https://cheuerde.github.io"  
 timezone: "America/New_York"  
 theme: minima  
+remote_theme: mmistakes/minimal-mistakes  
+plugins:  
+  - jekyll-remote-theme  
+
