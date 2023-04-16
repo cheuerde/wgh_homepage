@@ -46,8 +46,6 @@ sidebar:
 # Enable the following line to enforce HTTPS on your site  
 #enforce_ssl: your-username.github.io  
   
-# Set the permalink structure  
-permalink: /:title/  
 
 # Add the following lines if you want to enable Google Analytics tracking  
 # Replace "UA-XXXXX-Y" with your own tracking ID  
