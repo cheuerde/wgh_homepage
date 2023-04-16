@@ -1,0 +1,7 @@
+sidebar-navigation:  
+  - title: "Info"  
+    url: /info/  
+  - title: "Garden"  
+    url: /garden/  
+  - title: "Community"  
+    url: /community/  
